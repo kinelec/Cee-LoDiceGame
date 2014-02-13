@@ -1,0 +1,124 @@
+.root {
+     -fx-background-image: url("http://i42.tinypic.com/58eg4.jpg");
+	 -fx-background-position: center center;
+}
+
+#vbox-top {
+	-fx-alignment: top-center;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+#vbox-center {
+	-fx-alignment: top-center;
+    -fx-padding: 40;
+    -fx-spacing: 0;
+}
+ 
+.button {
+	-fx-background-color:
+        linear-gradient(#696969 0%, #232723 25%, #373837 75%, #000000 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#9d9e9d 0%, #6b6a6b 20%, #343534 80%, #000000 100%),
+        linear-gradient(#8a8a8a 0%, #6b6a6b 20%, #343534 80%, #000000 100%),
+        linear-gradient(#777777 0%, #606060 50%, #505250 51%, #000000 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 5 10 5 10;
+    -fx-font-family: "Saniretro";
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+.button:hover {
+     -fx-text-fill: red;
+}
+
+
+#welcome-text {
+   -fx-font-size: 162px;
+   -fx-stroke: red;
+   -fx-stroke-width: 1;
+   -fx-font-family: "xscale";
+   -fx-fill: linear-gradient(#696969, #000000);
+   -fx-effect: dropshadow( three-pass-box , black , 6, 0.3 , 0 , 2 );
+}
+
+#score-text {
+    -fx-font-size: 95px;
+   -fx-stroke: black;
+   -fx-stroke-width: .7;
+   -fx-font-family: "Riesling";
+   -fx-fill: red;
+   -fx-underline: true;
+   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.3 , 0 , 2 );
+}
+
+#playerscore-text {
+   -fx-font-size: 72px;
+   -fx-stroke: black;
+   -fx-stroke-width: 1;
+   -fx-font-family: "Saniretro";
+   -fx-text-alignment: center ;
+   -fx-fill: linear-gradient(#ff0000, #696969);
+   -fx-effect: dropshadow( three-pass-box , black , 0, 0.3 , 2 , 2 );
+}
+
+
+#rolling-text {
+   -fx-font-size: 72px;
+   -fx-stroke: black;
+   -fx-stroke-width: .7;
+   -fx-font-family: "Riesling";
+   -fx-fill: red;
+   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.3 , 0 , 2 );
+}
+
+#player-text {
+   -fx-font-size: 32px;
+   -fx-stroke: black;
+   -fx-stroke-width: 1;
+   -fx-font-family: "Saniretro";
+   -fx-underline: true;
+   -fx-text-alignment: center ;
+   -fx-fill: linear-gradient(#ffffff, #696969);
+}
+
+#win-text {
+   -fx-font-size: 102px;
+   -fx-stroke: red;
+   -fx-stroke-width: 2;
+   -fx-font-family: "Saniretro";
+   -fx-underline: true;
+   -fx-text-alignment: center ;
+   -fx-fill: linear-gradient(#ffffff, #696969);
+   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.3 , 0 , 2 );
+}
+
+#over-text {
+   -fx-font-size: 172px;
+   -fx-stroke: red;
+   -fx-stroke-width: 1;
+   -fx-font-family: "xscale";
+   -fx-fill: linear-gradient(#696969, #000000);
+   -fx-effect: dropshadow( three-pass-box , black , 6, 0.3 , 0 , 2 );
+}
+
+
+#roll-text{
+	-fx-font-size: 12px;
+	-fx-fill: white;
+}
+
+#round-text{
+	-fx-font-size: 16px;
+	-fx-fill: white;
+	-fx-underline: true;
+}
+
+#info-text{
+	-fx-font-size: 12px;
+	-fx-fill: red;
+}
